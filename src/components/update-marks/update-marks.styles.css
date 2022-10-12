@@ -1,0 +1,54 @@
+.update-marks{
+    border: 3px solid white;
+    max-width: 77vw;
+    min-height: 80vh ;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.sem-button{
+    width: 23%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 3px;
+    /* background-color:  #ee7752; */
+    background: linear-gradient(115deg, 
+    rgba(0,0,0,0.10), 
+    rgba(255,255,255,0.25));
+  color: #fff;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+ }
+
+ .grade-button {
+    background: linear-gradient(115deg, 
+    rgba(0,0,0,0.10), 
+    rgba(255,255,255,0.25));
+  color: #fff;
+  padding: 9px 10px;
+  margin: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    font-size: 40px;
+ }
+
+ .grade_field{
+  width: 90%;
+  padding: 12px 12px;
+  font-size: 25px;
+ }
+
+ .update_subject{
+  display: block;
+  font-size: 34px;
+  font-weight: bold;
+ }

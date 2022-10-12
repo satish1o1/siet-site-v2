@@ -1,0 +1,125 @@
+{
+    "SEM-1": {
+      "ENGLISH": {
+        "link": "k"
+      },
+      "MATHEMATICS-1": {
+        "link": "not available"
+      },
+      "APPLIED CHEMISTRY": {
+        "link": "not available"
+      },
+      "FUNDAMENTALS OF COMPUTER SCIENCE": {
+        "link": "not available"
+      },
+      "ENGINEERING DRAWING": {
+        "link": "not available"
+      },
+      "ENGLISH LAB": {
+        "link": "not available"
+      },
+      "IT WORKSHOP": {
+        "link": "not available"
+      }
+    },
+    "SEM-2": {
+      "MATHEMATICS-2": {
+        "link": "not available"
+      },
+      "MATHEMATICS-3": {
+        "link": "not available"
+      },
+      "APPLIED PHYSICS": {
+        "link": "not available"
+      },
+      "PROGRAMMING FOR PROBLEM SOLVING USING C": {
+        "link": "not available"
+      },
+      "DIGITAL LOGIC DESIGN": {
+        "link": "not available"
+      },
+      "APPLIED PHYSICS LAB": {
+        "link": "not available"
+      },
+      "COMMUNICATION SKIIL LAB": {
+        "link": "not available"
+      },
+      "PROGRAMMING FOR PROBLEM SOLVING USING C LAB": {
+        "link": "not available"
+      },
+      "ENGINEERING EXPLORAION PROJECT": {
+        "link": "not available"
+      }
+    },
+    "SEM-3": {
+      "MATHEMATICAL FOUNDATIONS OF COMPUTER SCIENCE": {
+        "link": "https://drive.google.com/drive/folders/1k5gieQKjMgf4H5UM5naibBHFcu7gMGB5?usp=sharing"
+      },
+      "SOFTWARE ENGINEERING": {
+        "link": "https://drive.google.com/drive/folders/1k6E55XDNnNymMtTrzbXaSNflAoIKGoA9?usp=sharing"
+      },
+      "PYTHON PROGRAMMING": {
+        "link": "https://drive.google.com/drive/folders/14Y8lb794VnePLy4UwkjqoXd6322jIVCd?usp=sharing"
+      },
+      "DATA STRUCTURES": {
+        "link": "https://drive.google.com/drive/folders/1Uft8NAci3dE-NFIgFx6JSB1WUt1pA8PE?usp=sharing"
+      },
+      "OBJECT ORIENTED PROGRAMMING THROUGH C++": {
+        "link": "https://drive.google.com/drive/folders/1wPotJrMFKAopOb8olosuoC7G1-A4NQhC?usp=sharing"
+      },
+      "COMPUTER ORGAINZATION": {
+        "link": "https://drive.google.com/drive/folders/164EbkxsRmDZBEsCiWigwrs-9wxkjrnAa?usp=sharing"
+      }
+    },
+    "SEM-4": {
+      "PROBABILITY AND STATISTICS": {
+        "link": "https://drive.google.com/drive/folders/1V9Vz9brPpsSK7uon8Mp_80Ry9RxZUOr5?usp=sharing"
+      },
+      "JAVA PROGRAMMING": {
+        "link": "https://drive.google.com/drive/folders/11HVBTlC3vp-YKtNG9zWOWp2gjPiBsVze?usp=sharing"
+      },
+      "OPERATING SYSTEMS": {
+        "link": "https://drive.google.com/drive/folders/1cm68ZZgVStmmDgkepG0W6U2kIXcuWRgN?usp=sharing"
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "link": "https://drive.google.com/drive/folders/18GIz4hd7T8ti3ZSCwQ7xT3oWAOynhIes?usp=sharing"
+      },
+      "FORMAL LANGUAGES AND AUTOMATA THEORY": {
+        "link": "https://drive.google.com/drive/folders/1eQQKMlZCa1BbdLOv5lihnKkdhuUWezTC?usp=sharing"
+      }
+    },
+    "SEM-5": {
+      "DATA WAREHOUSE AND DATA MINING": {
+        "link": "https://drive.google.com/drive/folders/1zk809340-5GELEMeTSKORIqZnoC87JUd?usp=sharing"
+      },
+      "COMPUTER NETWORK": {
+        "link": "https://drive.google.com/drive/folders/1NfAonV-iz_5IAk8_pfPbnCqNDs0JRdoj?usp=sharing"
+      },
+      "COMPILER DESIGN": {
+        "link": "https://drive.google.com/drive/folders/1rxVN7B0y3ILIfQRX1ZKjHFEPlyytyAN9?usp=sharing"
+      },
+      "ARTIFICIAL INTELLIGENCE": {
+        "link": "https://drive.google.com/drive/folders/1qSz8bZw5v7XvDD618esVPmBYAN9CjJRM?usp=sharing"
+      },
+      "PROFESSIONAL ELECTIVE 1": {
+        "link": "https://drive.google.com/drive/folders/1UXJbqJ8C3BZge7VbkjlyVqPTYhL-uKK4?usp=sharing"
+      }
+    },
+    "SEM-6": {
+      "RENEWABLE ENERGY SOURCES": {
+        "link": "Not available"
+      },
+      "WEB TECHNOLOGIES": {
+        "link": "https://drive.google.com/drive/folders/1V7FZEcF8vXH22dmMcIHUaJk6GaZYLoml?usp=sharing"
+      },
+      "DISTRIBUTED SYSTEMS": {
+        "link": "https://drive.google.com/drive/folders/1MwA7Mc-6l_zDRbwvA1BTCAXC6S-MQad8?usp=sharing"
+      },
+      "DESIGN AND ANALYSIS OF ALGORITHMS": {
+        "link": "https://drive.google.com/drive/folders/1MwA7Mc-6l_zDRbwvA1BTCAXC6S-MQad8?usp=sharing"
+      },
+      "MANAGERIAL ECONOMICS AND FINANCIAL ACC": {
+        "link": "https://drive.google.com/drive/folders/1IZeXUOaK4hUALVdHHKL5xCEK1ZuK-ULd?usp=sharing"
+      }
+    }
+  }

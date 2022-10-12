@@ -1,0 +1,25 @@
+
+  .marks-card{
+    border: 3px solid white;
+    max-width: 77vw;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.14);
+    padding: 15px;
+    margin: 20px;
+    color: white;
+    border-radius: 8px;
+  }
+
+  h2{
+    align: center;
+    text-decoration: underline;
+  }
+
+  hr{
+    height: 4px;
+    color: white;
+  }
+
+  .group-it{
+display:flex;
+justify-content: space-between;
+  }

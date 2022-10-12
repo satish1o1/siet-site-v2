@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+
+
+
+.section {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  align-items: center;
+  min-height: 88vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+      }
+    50% {
+      background-position: 100% 50%;
+      }
+    100% {
+      background-position: 0% 50%;
+      }
+}
+
+
+ .container {
+  position: relative;
+  padding: 20px;
+  width: 90%;
+  min-height: 460px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+}
+
+.section.container::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+  background: linear-gradient( to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 2%
+  );
+}
+
+
+   .form h2 {
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+
+  .inputBx {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+    .inputBx input {
+      width: 88%;
+      height: 50px;
+      outline: none;
+      margin-top: 12px;
+      border: none;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.2);
+      padding: 8px 10px;
+      padding-left: 40px;
+      border-radius: 13px;
+      color: #fff;
+      font-size: 30px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+    
+  
+        
+    .inputBx input[type="submit"] {
+      background: #fff;
+      color:  black;
+      margin-top: 10px;
+      width: 96%;
+      height: 66px;
+      padding: 8px 10px;
+      font-size: 28px;
+      font-weight: bold;
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: 1.5s;
+    }
+    
+    .inputBx input[type="submit"]:hover {
+      background: linear-gradient(115deg, 
+        rgba(0,0,0,0.10), 
+        rgba(255,255,255,0.25));
+      color: #fff;
+      transition: .5s;
+    }
+    
+    .inputBx input::placeholder {
+      color: #fff;
+    }
+
+    .login-title{
+      font-size: 45px;
+      font-weight: bold;
+      color: white;
+      margin-left: 35%;
+    }

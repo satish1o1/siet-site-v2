@@ -1,0 +1,79 @@
+{
+    "ARRAYS": {
+        "Q-1": {
+          "title": "Find minimum and maximum element in an array",
+          "q_link": "https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1",
+          "s_link": "https://replit.com/@satish11rr/Q1#main.py"
+        },
+        "Q-2": {
+          "title": "Reverse an Array",
+          "q_link": "https://practice.geeksforgeeks.org/problems/reverse-an-array/0",
+          "s_link": "https://replit.com/@satish11rr/Q2#main.py"
+        },
+        "Q-3": {
+          "title": "Find the Frequency",
+          "q_link": "https://practice.geeksforgeeks.org/problems/find-the-frequency/1",
+          "s_link": "https://replit.com/@satish11rr/Q3#main.py"
+        },
+       "Q-4": {
+          "title": "find the contiguous sub-array which has the maximum sum",
+          "q_link": "https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1",
+          "s_link": "https://replit.com/@satish11rr/Q1-2#main.py"
+        }
+    },
+    "STRINGS": {
+        "Q-1": {
+          "title": "SWAPCASE",
+          "q_link": "https://www.hackerrank.com/challenges/swap-case/problem?isFullScreen=true",
+          "s_link": "https://replit.com/@satish11rr/Q1-1#main.py"
+        },
+        "Q-2": {
+          "title": "FIND SUB STRING",
+          "q_link": "https://www.hackerrank.com/challenges/find-a-string/problem?isFullScreen=true",
+          "s_link": "https://replit.com/@satish11rr/Q2-1#main.py"
+        },
+        "Q-3": {
+          "title": "Longest Prefix Suffix",
+          "q_link": "https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1",
+          "s_link": "https://replit.com/@satish11rr/NOT-AVAILABLE#main.py"
+        }
+      
+    },
+    "STACKS": {
+        "Q-1": {
+          "title": "Valid Parentheses",
+          "q_link": "https://leetcode.com/problems/valid-parentheses/",
+          "s_link": "https://replit.com/@satish11rr/Q1-3#main.py"
+        },
+        "Q-2": {
+          "title": " Minimum Remove to Make Valid Parentheses",
+          "q_link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+          "s_link": "https://replit.com/@satish11rr/NOT-AVAILABLE#main.py"
+        }
+    },
+    "GREEDY": {
+        "Q-1": {
+          "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+          "q_link": "https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/",
+          "s_link": "NOT AVAILABLE"
+        },
+        "Q-2": {
+          "title": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K",
+          "q_link": "https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/",
+          "s_link": "NOT AVAILABLE"
+        }
+      },
+    "DYNAMIC-PROGRAMMING": {
+        "Q-1": {
+          "title": "Perfect Sum Problem",
+          "q_link": "https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1",
+          "s_link": "NOT AVAILABLE"
+        },
+        "Q-2": {
+          "title": "0-1 Knapsack Problem",
+          "q_link": "https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
+          "s_link": "NOT AVAILABLE"
+        }
+      
+    }
+  }

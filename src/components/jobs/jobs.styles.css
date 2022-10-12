@@ -1,0 +1,17 @@
+.jobs-card{
+    margin: 20px;
+
+}
+
+.job-group{
+    border: 2px solid white;
+    margin: 5px 4px;
+    border-radius: 6px;
+    color: white;
+}
+
+.job-sub-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 67px;
+}

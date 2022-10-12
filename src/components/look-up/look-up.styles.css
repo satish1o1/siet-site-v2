@@ -1,0 +1,28 @@
+.back-button{
+   width: 88%;
+   padding: 15px;
+   display: block;
+   border: 1px solid rgba(255, 255, 255, 0.15);
+   margin: 10px;
+   font-size: 40px;
+   font-weight: bold;
+   background: linear-gradient(115deg, 
+   rgba(0,0,0,0.10), 
+   rgba(255,255,255,0.25));
+ color: #fff;
+   backdrop-filter: blur(5px);
+   border-radius: 8px;
+   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+   cursor: pointer;
+}
+
+.lookupuser{
+    margin: 20px;
+    color: white;
+}
+
+.look-up{
+  margin: 10px;
+  border: 5px solid white;
+  border-radius: 6px;
+}

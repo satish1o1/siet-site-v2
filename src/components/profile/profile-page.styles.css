@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+
+
+
+.profile-section {
+  margin: 10px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  border-radius: 15px;
+  align-items: center;
+  min-height: 60vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+      }
+    50% {
+      background-position: 100% 50%;
+      }
+    100% {
+      background-position: 0% 50%;
+      }
+}
+
+
+.profile-section .container {
+  position: relative;
+  padding: 50px;
+  width: 100%;
+  color: white;
+  min-height: 380px;
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+}
+
+.container .form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+ 
+
+        
+  
+
+

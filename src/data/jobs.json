@@ -1,0 +1,34 @@
+{
+    "jobs": {
+        "job-1":{
+            "title":"nothig",
+            "Batch":"2023",
+            "salary":"3 LPA",
+            "link":"https://nothing"
+        },
+        "job-2":{
+            "title":"nothig",
+            "Batch":"2023",
+            "salary":"3 LPA",
+            "link":"https://nothing"
+        },
+        "job-3":{
+            "title":"nothig",
+            "Batch":"2023",
+            "salary":"3 LPA",
+            "link":"https://nothing"
+        },
+        "job-4":{
+            "title":"nothig",
+            "Batch":"2023",
+            "salary":"3 LPA",
+            "link":"https://nothing"
+        },
+        "job-5":{
+            "title":"nothig",
+            "Batch":"2023",
+            "salary":"3 LPA",
+            "link":"https://nothing"
+        }
+    }
+  }
