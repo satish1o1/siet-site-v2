@@ -56,9 +56,12 @@ const Overview = ({user}) => {
           <div>
           {Object.keys(v[0]).map((key, index) => {
         return (    
-            <h2>
-              {key.toUpperCase()}   :   {v[0][key]}
-            </h2>
+         
+          <div className='overview-group-it'>
+              <h3>{key.toUpperCase().concat("    :")}</h3>
+              <h3>{v[0][key]}</h3>
+            </div>
+            
         );
       })}
       <hr/>

@@ -1,10 +1,10 @@
 .back-button{
-   width: 88%;
-   padding: 15px;
+   width: 87%;
+   padding: 4px;
    display: block;
    border: 1px solid rgba(255, 255, 255, 0.15);
-   margin: 10px;
-   font-size: 40px;
+   margin: 12px;
+   font-size: 23.5px;
    font-weight: bold;
    background: linear-gradient(115deg, 
    rgba(0,0,0,0.10), 
@@ -22,7 +22,7 @@
 }
 
 .look-up{
-  margin: 10px;
+  margin: 13px;
   border: 5px solid white;
   border-radius: 6px;
 }
