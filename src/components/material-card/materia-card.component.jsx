@@ -8,7 +8,7 @@ const MaterialCard = ({semno,sem}) => {
            Object.keys(sem).map(se =>{
             return <div key = {se} >
                 <h2>{se}</h2>
-            <button className='back-button'><a href = {sem[se]['link']}>DOWNLOAD</a></button>
+            <button className='back-button'><a href = {sem[se]['link']} target ="_blank">DOWNLOAD</a></button>
 
             </div> 
            })

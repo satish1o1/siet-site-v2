@@ -15,7 +15,33 @@
           "q_link": "https://practice.geeksforgeeks.org/problems/find-the-frequency/1",
           "s_link": "https://replit.com/@satish11rr/Q3#main.py"
         },
-       "Q-4": {
+        "Q-4": {
+          "title": "Make all equal using Pairs",
+          "q_link": "https://www.codechef.com/submit/PAIREQ?tab=submissions",
+          "s_link": "https://www.codechef.com/viewsolution/77215930"
+        },
+        "Q-5": {
+          "title": "Counting Pretty Numbers",
+          "q_link": "https://www.codechef.com/submit/NUM239?tab=statement",
+          "s_link": "https://www.codechef.com/viewsolution/77211662"
+        },
+        "Q-6": {
+          "title": "Lapindromes",
+          "q_link": "https://www.codechef.com/submit/LAPIN",
+          "s_link": "https://www.codechef.com/viewsolution/77218493"
+        },
+        "Q-7": {
+          "title": "Distinct Codes",
+          "q_link": "https://www.codechef.com/submit/DISTCODE",
+          "s_link": "https://www.codechef.com/viewsolution/77064778"
+        },
+        "Q-8": {
+          "title": "Dominant Elementy",
+          "q_link": "https://www.codechef.com/submit/DOMINANT2",
+          "s_link": "https://www.codechef.com/viewsolution/77211533"
+        },
+      
+       "Q-9": {
           "title": "find the contiguous sub-array which has the maximum sum",
           "q_link": "https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1",
           "s_link": "https://replit.com/@satish11rr/Q1-2#main.py"
@@ -33,6 +59,42 @@
           "s_link": "https://replit.com/@satish11rr/Q2-1#main.py"
         },
         "Q-3": {
+          "title": "Alphabet Rangoli",
+          "q_link": "https://www.hackerrank.com/challenges/alphabet-rangoli/problem?isFullScreen=true",
+          "s_link": "https://www.hackerrank.com/challenges/alphabet-rangoli/submissions/code/267807195"
+        },
+        "Q-4": {
+          "title": "The Minion Game",
+          "q_link": "https://www.hackerrank.com/challenges/the-minion-game/problem?isFullScreen=true",
+          "s_link": "https://www.hackerrank.com/challenges/the-minion-game/submissions/code/267909639"
+        },
+        "Q-5": {
+          "title": "Wordle",
+          "q_link": "https://www.codechef.com/submit/WORDLE",
+          "s_link": "https://www.codechef.com/viewsolution/77215721"
+        },
+        "Q-6": {
+          "title": "Zero Ones Equal One Zeros",
+          "q_link": "https://www.codechef.com/submit/ZOOZ",
+          "s_link": "https://www.codechef.com/viewsolution/77216546"
+        },
+        "Q-7": {
+          "title": "Palindromic substrings",
+          "q_link": "https://www.codechef.com/submit/STRPALIN",
+          "s_link": "https://www.codechef.com/viewsolution/77136890"
+        },
+        "Q-8": {
+          "title": "Closest Vowels",
+          "q_link": "https://www.codechef.com/submit/CLOSEVOWEL",
+          "s_link": "https://www.codechef.com/viewsolution/77173487"
+        },
+        "Q-9": {
+          "title": "Max power",
+          "q_link": "https://www.codechef.com/submit/MAX2",
+          "s_link": "https://www.codechef.com/viewsolution/77097051"
+        },
+
+        "Q-10": {
           "title": "Longest Prefix Suffix",
           "q_link": "https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1",
           "s_link": "https://replit.com/@satish11rr/NOT-AVAILABLE#main.py"
@@ -46,18 +108,49 @@
           "s_link": "https://replit.com/@satish11rr/Q1-3#main.py"
         },
         "Q-2": {
+          "title": "Maximum Nesting Depth of the Parentheses",
+          "q_link": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/description/",
+          "s_link": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/solutions/888891/simple-python3-o-n-solution/?languageTags=python3"
+        },
+        "Q-3": {
+          "title": "Next Greater Element I",
+          "q_link": "https://leetcode.com/problems/next-greater-element-i/",
+          "s_link": "https://leetcode.com/problems/next-greater-element-i/solutions/344149/python3-solution-using-stack/?languageTags=python3"
+        },
+        "Q-4": {
           "title": " Minimum Remove to Make Valid Parentheses",
           "q_link": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
           "s_link": "https://replit.com/@satish11rr/NOT-AVAILABLE#main.py"
         }
     },
     "GREEDY": {
-        "Q-1": {
-          "title": "Minimum Sum of Four Digit Number After Splitting Digits",
-          "q_link": "https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/",
-          "s_link": "NOT AVAILABLE"
-        },
-        "Q-2": {
+      "Q-1": {
+        "title": "Smallest Numbers of Notes",
+        "q_link": "https://www.codechef.com/submit/FLOW005",
+        "s_link": "https://www.codechef.com/viewsolution/77186399"
+      },
+      "Q-2": {
+        "title": "First and Last",
+        "q_link": "https://www.codechef.com/submit/FIRSTANDLAST",
+        "s_link": "https://www.codechef.com/viewsolution/77201426"
+      },
+      "Q-3": {
+        "title": "Split N",
+        "q_link": "https://www.codechef.com/submit/SPLITN",
+        "s_link": "https://www.codechef.com/viewsolution/77209390"
+      },
+      "Q-4": {
+        "title": "Jumping in the hills",
+        "q_link": "https://www.codechef.com/submit/HILLS",
+        "s_link": "https://www.codechef.com/viewsolution/77164400"
+      },
+      "Q-5": {
+        "title": "Brackets",
+        "q_link": "https://www.codechef.com/submit/BRACKETS",
+        "s_link": "https://www.codechef.com/viewsolution/77206144"
+      },
+  
+        "Q-6": {
           "title": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K",
           "q_link": "https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/",
           "s_link": "NOT AVAILABLE"
@@ -73,6 +166,26 @@
           "title": "0-1 Knapsack Problem",
           "q_link": "https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1",
           "s_link": "NOT AVAILABLE"
+        },
+        "Q-3": {
+          "title": "Count K-Primes",
+          "q_link": "hhttps://www.codechef.com/submit/KPRIMEttps",
+          "s_link": "https://www.codechef.com/viewsolution/76746541"
+        },
+        "Q-4": {
+          "title": "ProCount palindromesblem",
+          "q_link": "https://www.codechef.com/submit/COUNTPAL",
+          "s_link": "https://www.codechef.com/viewsolution/77032060"
+        },
+        "Q-5": {
+          "title": "ProbTripletslem",
+          "q_link": "https://www.codechef.com/submit/SUMQ",
+          "s_link": "https://www.codechef.com/viewsolution/73992162"
+        },
+        "Q-6": {
+          "title": "Shortest Route",
+          "q_link": "https://www.codechef.com/submit/SHROUTE",
+          "s_link": "https://www.codechef.com/viewsolution/74357585"
         }
       
     }

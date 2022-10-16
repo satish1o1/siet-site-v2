@@ -1,54 +1,54 @@
 {
     "SEM-1": {
       "ENGLISH": {
-        "link": "k"
+        "link": "material_download"
       },
       "MATHEMATICS-1": {
-        "link": "not available"
+        "link": "material_download"
       },
       "APPLIED CHEMISTRY": {
-        "link": "not available"
+        "link": "material_download"
       },
       "FUNDAMENTALS OF COMPUTER SCIENCE": {
-        "link": "not available"
+        "link": "material_download"
       },
       "ENGINEERING DRAWING": {
-        "link": "not available"
+        "link": "material_download"
       },
       "ENGLISH LAB": {
-        "link": "not available"
+        "link": "material_download"
       },
       "IT WORKSHOP": {
-        "link": "not available"
+        "link": "material_download"
       }
     },
     "SEM-2": {
       "MATHEMATICS-2": {
-        "link": "not available"
+        "link": "material_download"
       },
       "MATHEMATICS-3": {
-        "link": "not available"
+        "link": "material_download"
       },
       "APPLIED PHYSICS": {
-        "link": "not available"
+        "link": "material_download"
       },
       "PROGRAMMING FOR PROBLEM SOLVING USING C": {
-        "link": "not available"
+        "link": "material_download"
       },
       "DIGITAL LOGIC DESIGN": {
-        "link": "not available"
+        "link": "material_download"
       },
       "APPLIED PHYSICS LAB": {
-        "link": "not available"
+        "link": "material_download"
       },
       "COMMUNICATION SKIIL LAB": {
-        "link": "not available"
+        "link": "material_download"
       },
       "PROGRAMMING FOR PROBLEM SOLVING USING C LAB": {
-        "link": "not available"
+        "link": "material_download"
       },
       "ENGINEERING EXPLORAION PROJECT": {
-        "link": "not available"
+        "link": "material_download"
       }
     },
     "SEM-3": {
@@ -107,7 +107,7 @@
     },
     "SEM-6": {
       "RENEWABLE ENERGY SOURCES": {
-        "link": "Not available"
+        "link": "material_download"
       },
       "WEB TECHNOLOGIES": {
         "link": "https://drive.google.com/drive/folders/1V7FZEcF8vXH22dmMcIHUaJk6GaZYLoml?usp=sharing"

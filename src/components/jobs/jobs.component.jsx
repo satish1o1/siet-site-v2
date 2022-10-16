@@ -1,7 +1,6 @@
 import JobsData from '../../data/jobs.json'
 import './jobs.styles.css'
 const Jobs = () => {
-    console.log(JobsData)
     const jobs = JobsData['jobs']
     return(
         <div className='jobs-card'>
@@ -22,7 +21,7 @@ const Jobs = () => {
               <h3>{salary}</h3>
             </div>
             <span className='job-sub-group'>
-            <button className='back-button'><a href = {link}>APPLY</a></button>     
+            <button className='back-button'><a href = {link} target ="_blank">APPLY</a></button>     
             </span>
          
             </div>

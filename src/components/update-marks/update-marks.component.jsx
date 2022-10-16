@@ -33,6 +33,7 @@ const  UpdateMarks  = () =>{
             sem_obj:new_obj,
         })
         
+        
     }
 
     const onSubmitHandle = async (event) => {
@@ -42,10 +43,12 @@ const  UpdateMarks  = () =>{
           new_f_obj[CurrentUser]['marks'][sem] = sem_obj
           setData(new_f_obj)
           await Update_Marks(CurrentUser,data[CurrentUser])
+          alert('SUCCESSFULLY UPDATED')
       
         } catch (error) {
            console.log(error.code)
         }
+        
      };
         
      const semister = sem_obj

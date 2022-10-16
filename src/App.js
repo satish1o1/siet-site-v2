@@ -25,6 +25,8 @@ const App = () => {
         <Route path = '/jobs' element={<Jobs />} />
         <Route path = '/coding' element={<Coding />} />
         <Route path = '/material' element={<Materials />} />
+        <Route path = '/material_download' element={<h1 className=''>NOT AVAILABLE RIGHT NOW ONLY SEM-3 TO SEM-6 AVAILABLE</h1>} />
+
       </Route> 
   </Routes>
   );

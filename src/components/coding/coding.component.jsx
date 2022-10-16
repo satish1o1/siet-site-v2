@@ -29,10 +29,10 @@ class Coding extends React.Component {
             Object.keys(cod).map(questions => {
                 const cod_s = cod[questions]
                 return <div>
-                    <h2>{cod_s['title']}</h2>
+                  <h2>{questions} {cod_s['title']}</h2>
                     <div className='codes-button-container'>
-                    <button className='back-button'><a href = {cod_s['q_link']}>SOLVE</a></button>
-                    <button className='back-button'><a href = {cod_s['s_link']}>SOLUTION</a></button>
+                    <button className='back-button'><a href = {cod_s['q_link']} target ="_blank">SOLVE</a></button>
+                    <button className='back-button'><a href = {cod_s['s_link']} target ="_blank">SOLUTION</a></button>
                 </div>
                 </div>
             }

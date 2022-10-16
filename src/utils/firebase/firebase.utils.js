@@ -62,11 +62,9 @@ export const addUserDoc = async () => {
   }
 
   export const Update_Marks = async(CurrentUser,Original_obj) => {
-    console.log('update db',CurrentUser,Original_obj)
     const UserRef = doc(db,'usersData',CurrentUser)
     const UserSnap  = await getDoc(UserRef)
     if(UserSnap.exists()){
-      console.log(CurrentUser,Original_obj)
         await setDoc(UserRef,Original_obj)
     }
   }  

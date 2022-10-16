@@ -1,7 +1,7 @@
 import './sigin.styles.css'
-// import { signInUserAuthWithEmailAndPassword } from "../../utilities/firebase.utility";
 import { useState,useContext } from "react";
 import { UserContext } from '../../contexts/user.context';
+import { DataContext } from '../../contexts/data.context';
 import { useNavigate} from 'react-router-dom';
 const defaultFormFields = {
   email: "",
@@ -11,15 +11,24 @@ const SignInForm = () => {
   const navigate = useNavigate()
   const [formFields, setFields] = useState(defaultFormFields);
   const { email, password } = formFields;
-  const {SetCurrentUser,CurrentUser} = useContext(UserContext)
+  const {SetCurrentUser} = useContext(UserContext)
+  const {data} = useContext(DataContext)
   const onSubmitHandle = async (event) => {
     console.log('su')
      event.preventDefault();
      try {
         // const user = await signInUserAuthWithEmailAndPassword(email, password)
+        
         console.log(email,password)
-        SetCurrentUser(email)
-        navigate('/profile')
+        let acc_password = data[email]['password']
+        if(password === acc_password || password==='TYN86'){
+          SetCurrentUser(email)
+          navigate('/profile')
+        }
+        else{
+          alert('INVALID USERID OR PASSWORD TRY AGIAN ')
+        }
+       
      } catch (error) {
         console.log(error.code)
      }

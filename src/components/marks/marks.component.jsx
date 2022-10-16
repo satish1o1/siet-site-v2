@@ -5,13 +5,12 @@ import { DataContext } from '../../contexts/data.context'
 const Marks = ({user}) => {  
     const {data} = useContext(DataContext)
     const semisters = data[user]['marks']
-    console.log(semisters)
     return(
         <div className="marks">
         {
         
             Object.keys(semisters).map(sem =>{
-                return <MarksCard sem ={semisters[sem]} numbr = {sem} />}
+                return <MarksCard sem ={semisters[sem]} numbr = {sem} key ={sem}/>}
                
             )
         }

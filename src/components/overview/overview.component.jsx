@@ -39,7 +39,6 @@ const Overview = ({user}) => {
     
 
     let v = sgpa()
-    console.log(v[0],v[1],v[2],v[3])
     return(
         <div className='overview'>
           <h1>OVERVIEW</h1>   
