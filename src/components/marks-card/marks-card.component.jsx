@@ -2,7 +2,7 @@ import './marks-card.styles.css'
 const MarksCard = ({sem,numbr}) => {
     return(
         <div className="marks-card">
-        <h1>{numbr.toUpperCase()}</h1>
+        <h1 className='title'>{numbr.toUpperCase()}</h1>
          {
            Object.keys(sem).map(se =>{
             return <div className='group-it'>

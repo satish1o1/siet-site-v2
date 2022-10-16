@@ -8,7 +8,6 @@ import './update-marks.styles.css'
 
 const defaultSemFields = {
     sem:'sem-1',
-    sem_obj:''
 };
 const  UpdateMarks  = () =>{
     const [semFields,setFields] = useState(defaultSemFields)
@@ -16,11 +15,11 @@ const  UpdateMarks  = () =>{
     const {data,setData} = useContext(DataContext)
     const {CurrentUser} = useContext(UserContext)
 
+
     const selectSem = (sem) =>{
         console.log(sem)
         setFields({
             sem: sem,
-            sem_obj:data[CurrentUser]['marks'][sem],
           });
     }
        
@@ -51,7 +50,7 @@ const  UpdateMarks  = () =>{
         
      };
         
-     const semister = sem_obj
+     let semister = data[CurrentUser]['marks'][sem]
         return(
             <div className="update-marks">
        <button className="sem-button" onClick={()=>selectSem('sem-1')}>SEM-1</button>
@@ -62,7 +61,7 @@ const  UpdateMarks  = () =>{
        <button className="sem-button" onClick={()=>selectSem('sem-6')}>SEM-6</button>
        <button className="sem-button" disabled onClick={()=>selectSem('sem-7')}>SEM-7</button>
        <button className="sem-button" disabled onClick={()=>selectSem('sem-8')}>SEM-8</button>
-       <h1>{sem.toUpperCase()}</h1>
+       <h1 className="title">{sem.toUpperCase()}</h1>
        <div>
         {
             Object.keys(semister).map(subjects => {
@@ -85,7 +84,9 @@ const  UpdateMarks  = () =>{
             })
             
         }
-        <button className="back-button" onClick={onSubmitHandle}>SUBMIT</button>
+        
+            <button className="back-button" onClick={onSubmitHandle}>SUBMIT</button>
+        
        </div>
           </div>
         )

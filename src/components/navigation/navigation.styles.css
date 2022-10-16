@@ -1,9 +1,9 @@
 
   .navigation {
-    height: 70px;
+    height: 68px;
     width:auto;
     display: flex;
-    margin: 8px;
+    margin: 6px;
     padding:10px 20px;
     justify-content: space-between;
     margin-bottom: 25px;
@@ -26,6 +26,11 @@
     font-size: 21px;
     color: white;
     font-weight: bold;
+  }
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 2px;
   }
 
   

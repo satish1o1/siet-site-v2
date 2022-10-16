@@ -36,14 +36,17 @@ const Overview = ({user}) => {
       return [sgpa_k_v,to_cgpa,eq_per,back_log]
       }
       
-    
-
     let v = sgpa()
     return(
         <div className='overview'>
-          <h1>OVERVIEW</h1>   
+          <h1 className="prof-title">OVERVIEW</h1>   
+         {
+          Object.keys(v[3]).length && <h1 className="prof-title"><hr/>BACKLOGS</h1>
+         }
           <div>
-          {Object.keys(v[3]).map((key, index) => {
+          
+          {
+            Object.keys(v[3]).map((key, index) => {
         return (
             <h2>
               {key}  :  {v[3][key]}

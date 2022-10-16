@@ -37,18 +37,6 @@ const Menu = () => {
       </div>
    )
   
-    
-
-//         <div id="myNav" class="overlay">
-//   <a className="closebtn" onclick={()=>console.log('menu closed')}>&times;</a>
-//   <div class="overlay-content">
-//     <span>About</span>
-//     <h3>About</h3>
-//     <h3>About</h3>
-//     <h3>About</h3>
-//   </div>
-//         </div>
-
    
 }
 

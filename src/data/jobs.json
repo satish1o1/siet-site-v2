@@ -1,34 +1,40 @@
 {
     "jobs": {
         "job-1":{
-            "title":"IBM Hiring for Software Developer",
+            "title":"IBM ",
             "Batch":"2023",
             "salary":"4.5LPA",
             "link":"https://alljobsinindia.in/ibm-jio-hiring-for-software-developer/"
         },
         "job-2":{
-            "title":"IBM Hiring for Software Developer",
-            "Batch":"2023",
-            "salary":"4.5LPA",
-            "link":"https://alljobsinindia.in/ibm-jio-hiring-for-software-developer/"
+            "title":"TCS Off Campus",
+            "Batch":"2020, 21, 22",
+            "salary":"₹ 5 LPA",
+            "link":"https://bit.ly/3eHB8gK"
         },
         "job-3":{
-            "title":"IBM Hiring for Software Developer",
+            "title":"PubMatic",
             "Batch":"2023",
-            "salary":"4.5LPA",
-            "link":"https://alljobsinindia.in/ibm-jio-hiring-for-software-developer/"
+            "salary":" INR 6 LPA",
+            "link":"https://jobforfreshar.com/pubmatic-off-campus-drive-2022/"
         },
         "job-4":{
-            "title":"IBM Hiring for Software Developer",
+            "title":"Cognizant",
             "Batch":"2023",
             "salary":"4.5LPA",
             "link":"https://alljobsinindia.in/ibm-jio-hiring-for-software-developer/"
         },
         "job-5":{
-            "title":"nothig",
-            "Batch":"2023",
-            "salary":"3 LPA",
-            "link":"https://nothing"
+            "title":"Microsoft",
+            "Batch":"2022 & 2023",
+            "salary":" 6.36 LPA",
+            "link":"https://bit.ly/3eejUaU"
+        },
+        "job-6":{
+            "title":"Hike",
+            "Batch":" 2021, 22, 23",
+            "salary":" 3.6 LPA",
+            "link":"https://jobforfreshar.in/index.php/hike-off-campus-drive-2022/"
         }
     }
   }

@@ -5,10 +5,11 @@ import '../navigation/navigation.styles.css'
 import { useNavigate} from 'react-router-dom';
 import { MenuContext } from "../../contexts/menu.context";
 import Menu from "../../components/menu/menu.component"; 
+import Janasana from '../../assests/janasana.png'
 const Navigation = () => {
     const navigate = useNavigate()
     const {CurrentUser,SetCurrentUser} = useContext(UserContext)
-    const {SetIsOpen,isOpen} = useContext(MenuContext)
+    const {SetIsOpen} = useContext(MenuContext)
     const signOut = () => {
      console.log('user logged out')
      SetCurrentUser(null)
@@ -19,10 +20,16 @@ const Navigation = () => {
     return(
         <Fragment>
               <div className="navigation">
+              {
+                CurrentUser && (<Link  to="/profile">
+        <img className="logo-container" src = {Janasana} />
+        </Link>)
+              }
+              
               <div className="nav-links-container">
               {
                 CurrentUser && (<Link to="/profile" className="nav-link">
-            HOME
+            
             </Link>)
               }
               

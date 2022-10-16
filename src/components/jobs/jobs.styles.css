@@ -1,7 +1,5 @@
 .jobs-card{
-    margin: 20px;
-    
-
+    margin: 20px; 
 }
 
 .job-group{
@@ -11,6 +9,25 @@
     color: white;
     padding: 15px;
     border-radius: 8px;
+}
+
+.apply-button{
+    width: 87%;
+    padding: 4px;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 12px;
+    font-size: 23.5px;
+    font-weight: bold;
+    background: linear-gradient(115deg, 
+    rgba(0,0,0,0.10), 
+    rgba(255,255,255,0.25));
+  color: #fff;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
 }
 
 

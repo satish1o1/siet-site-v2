@@ -16,23 +16,25 @@ class Coding extends React.Component {
   render(){
     const cod = this.state.codes
     return <div>  
-      <button className="sem-button" onClick={()=>this.selectCategory('ARRAYS')}>ARRAYS</button>
-      <button className="sem-button" onClick={()=>this.selectCategory('STRINGS')}>STRINGS</button>
-      <button className="sem-button" onClick={()=>this.selectCategory('STACKS')}>STACKS</button>
-      <button className="sem-button" onClick={()=>this.selectCategory('GREEDY')}>GREEDY</button>
-      <button className="sem-button" onClick={()=>this.selectCategory('DYNAMIC-PROGRAMMING')}>DYNAMIC-PROGRAMMING</button>
+      <div className='sem-button-container'>
+      <button className="code-category-button btn" onClick={()=>this.selectCategory('ARRAYS')}>ARRAYS</button>
+      <button className="code-category-button btn" onClick={()=>this.selectCategory('STRINGS')}>STRINGS</button>
+      <button className="code-category-button btn" onClick={()=>this.selectCategory('STACKS')}>STACKS</button>
+      <button className="code-category-button btn" onClick={()=>this.selectCategory('GREEDY')}>GREEDY</button>
+      <button className="code-category-button btn" onClick={()=>this.selectCategory('DYNAMIC-PROGRAMMING')}>DYNAMIC-PROGRAMMING</button>
+      </div>
       <div>
       
       <div className='overview'>
-      <h1>{this.state.category}</h1>
+      <h1 className='title'>{this.state.category}</h1>
         {  
             Object.keys(cod).map(questions => {
                 const cod_s = cod[questions]
                 return <div>
                   <h2>{questions} {cod_s['title']}</h2>
                     <div className='codes-button-container'>
-                    <button className='back-button'><a href = {cod_s['q_link']} target ="_blank">SOLVE</a></button>
-                    <button className='back-button'><a href = {cod_s['s_link']} target ="_blank">SOLUTION</a></button>
+                    <button className='codes-sub-buttons btn'><a href = {cod_s['q_link']} target ="_blank">SOLVE</a></button>
+                    <button className='codes-sub-buttons btn'><a href = {cod_s['s_link']} target ="_blank">SOLUTION</a></button>
                 </div>
                 </div>
             }

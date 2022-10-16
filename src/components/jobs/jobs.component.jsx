@@ -20,9 +20,9 @@ const Jobs = () => {
               <h3>SALARY</h3>
               <h3>{salary}</h3>
             </div>
-            <span className='job-sub-group'>
-            <button className='back-button'><a href = {link} target ="_blank">APPLY</a></button>     
-            </span>
+            
+         <a className='apply-button' href = {link} target ="_blank">APPLY</a>     
+            
          
             </div>
           })

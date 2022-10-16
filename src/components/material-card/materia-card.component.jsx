@@ -3,7 +3,7 @@ import './material.styles.css'
 const MaterialCard = ({semno,sem}) => {
     return(
         <div className = 'marks-card'>
-        <h1>{semno}</h1>
+        <h1 className='title'>{semno}</h1>
          { 
            Object.keys(sem).map(se =>{
             return <div key = {se} >

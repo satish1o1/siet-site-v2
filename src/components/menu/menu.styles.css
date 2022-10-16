@@ -6,7 +6,6 @@
     top: 0;
     left: 0;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    overflow-x: hidden;
     transition: 0.5s;
     color: white;
   }
@@ -20,9 +19,9 @@
   }
   
   .overlay a {
-    padding: 8px;
+    padding: 5px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 24px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -55,4 +54,5 @@
 
   .nav-link-container{
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    padding: 10px;
   }

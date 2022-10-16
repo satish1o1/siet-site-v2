@@ -1,13 +1,33 @@
-.sem-button
+.sem-button-container{
+    margin: 16px;
+    padding: 10px;
+    box-shadow: 0 25px 45px rgb(0 0 0 / 10%);
+   
+}
+
+.code-category-button
 {
-    width: 25%;
-    padding: 20px;
-    margin: 10px;
+    width: 47%;
+    padding: 12px;
+    margin: 3px;
+    display: inline;
+    margin: 4px;
+    font-size: 23.5px;
     
+}
+
+.code-category-button:nth-child(5){
+    width: 98%;
 }
 
 
 .codes-button-container{
     display: flex;
     
+}
+
+.codes-sub-buttons{
+    width: 48%;
+    font-size: 27px;
+    margin: 4px;
 }
