@@ -1,5 +1,4 @@
 
-import React from "react";
 import { useContext,useState } from 'react'
 import { DataContext } from '../../contexts/data.context'
 import { UserContext } from "../../contexts/user.context";
@@ -7,7 +6,7 @@ import { Update_Marks } from "../../utils/firebase/firebase.utils";
 import './update-marks.styles.css'
 
 const defaultSemFields = {
-    sem:'sem-1',
+    sem:'CHOOSE SEM',
     sem_obj:''
 };
 const  UpdateMarks  = () =>{
@@ -82,8 +81,10 @@ const  UpdateMarks  = () =>{
             
         }
         
-            <button className="btn subm" onClick={onSubmitHandle}>SUBMIT</button>
-        
+            
+        {
+           (sem !== 'CHOOSE SEM') ? (<button className="btn subm" onClick={onSubmitHandle}>SUBMIT</button>):(<h1></h1>)
+        }
        </div>
           </div>
         )

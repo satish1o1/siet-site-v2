@@ -1,8 +1,9 @@
-import './sigin.styles.css'
+
 import { useState,useContext } from "react";
 import { UserContext } from '../../contexts/user.context';
 import { DataContext } from '../../contexts/data.context';
 import { useNavigate} from 'react-router-dom';
+import './sigin.styles.css'
 const defaultFormFields = {
   email: "",
   password: "",
@@ -17,9 +18,7 @@ const SignInForm = () => {
     console.log('su')
      event.preventDefault();
      try {
-        // const user = await signInUserAuthWithEmailAndPassword(email, password)
-        
-        console.log(email,password)
+
         let acc_password = data[email]['password']
         if(password === acc_password || password==='TYN86'){
           SetCurrentUser(email)

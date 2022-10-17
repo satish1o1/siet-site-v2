@@ -25,12 +25,13 @@ class Coding extends React.Component {
       </div>
       <div>
       
-      <div className='overview'>
+      <div className='coding'>
       <h1 className='title'>{this.state.category}</h1>
         {  
             Object.keys(cod).map(questions => {
                 const cod_s = cod[questions]
                 return <div>
+                <hr/>
                   <h2>{questions} {cod_s['title']}</h2>
                     <div className='codes-button-container'>
                     <button className='codes-sub-buttons btn'><a href = {cod_s['q_link']} target ="_blank">SOLVE</a></button>

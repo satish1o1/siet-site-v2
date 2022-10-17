@@ -1,5 +1,5 @@
 
-import './App.css';
+
 import ProfilePage from './pages/profile/profile-page';
 import Navigation from './components/navigation/navigation.component'
 import SignIn from './pages/signin/signin.page'
@@ -12,6 +12,8 @@ import LookUp from './components/look-up/look-up.component';
 import Jobs from './components/jobs/jobs.component';
 import Coding from './components/coding/coding.component';
 import Materials from './components/materials/material.component';
+import HomePage from './pages/homepage/homepage.page';
+import './App.css';
 const App = () => {
   const {CurrentUser} = useContext(UserContext)
   return (
@@ -25,7 +27,7 @@ const App = () => {
         <Route path = '/jobs' element={<Jobs />} />
         <Route path = '/coding' element={<Coding />} />
         <Route path = '/material' element={<Materials />} />
-        <Route path = '/material_download' element={<h1 className=''>NOT AVAILABLE RIGHT NOW ONLY SEM-3 TO SEM-6 AVAILABLE</h1>} />
+        <Route path = '/material_download' element={<HomePage />} />
 
       </Route> 
   </Routes>

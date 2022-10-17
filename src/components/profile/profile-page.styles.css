@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 .profile-section {
   margin: 9px;
   display: flex;
@@ -9,7 +8,6 @@
   justify-content: center;
   border-radius: 15px;
   align-items: center;
-  min-height: 55vh;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 7s ease infinite;
@@ -39,6 +37,14 @@
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
 }
 
+.profile-value{
+  margin: 10px 0px;
+  font-family: 'Rubik', sans-serif;
+
+
+
+
+}
 
 
 

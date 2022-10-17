@@ -1,7 +1,8 @@
-import './overview.styles.css'
 import { useContext } from 'react'
 import {DataContext} from '../../contexts/data.context'
+import './overview.styles.css'
 const Overview = ({user}) => {
+  const sems = ['sem-1','sem-2','sem-3','sem-4','sem-5','sem-6']
     const {data} = useContext(DataContext)
     const sgpa = ()=>{
       let sgpa_a = []
@@ -39,13 +40,14 @@ const Overview = ({user}) => {
     let v = sgpa()
     return(
         <div className='overview'>
-          <h1 className="prof-title">OVERVIEW</h1>   
+          <h2 className="prof-title">OVERVIEW</h2>   
          {
-          Object.keys(v[3]).length && <h1 className="prof-title"><hr/>BACKLOGS</h1>
+          Object.keys(v[3]).length ? (<h1 className="prof-title"><hr/>BACKLOGS</h1>) :(<h4></h4>)
          }
           <div>
           
           {
+            
             Object.keys(v[3]).map((key, index) => {
         return (
             <h2>
@@ -56,12 +58,13 @@ const Overview = ({user}) => {
       <hr/>
           </div>
           <div>
-          {Object.keys(v[0]).map((key, index) => {
+          {
+            sems.map((key, index) => {
         return (    
          
           <div className='overview-group-it'>
-              <h3>{key.toUpperCase().concat("    :")}</h3>
-              <h3>{v[0][key]}</h3>
+              <h3 className="profile-value">{key.toUpperCase()}</h3>
+              <h3 className="profile-value">{v[0][key]}</h3>
             </div>
             
         );
@@ -70,7 +73,7 @@ const Overview = ({user}) => {
           </div>
           <div>
             <h2>OVERALL CGPA  :  {v[1]}</h2>
-            <h2>PERCENTAGE    : {v[2].toFixed(2)}</h2>
+            <h2>PERCENTAGE    : {v[2].toFixed(2)}%</h2>
           </div>
         </div>
     )

@@ -8,9 +8,14 @@ const ProfilePage = () =>{
     const {CurrentUser} = useContext(UserContext)
     return(
         <div className="profile-container">
-        <h1 className="prof-title">PROFILE</h1>
         <Profile user = {CurrentUser}/>
         <Overview user = {CurrentUser} />
+        <div className="footer">
+            <h2>DEVELOPERS</h2>
+            <hr/>
+            <h3>INUKONDA SAI BABU</h3>
+            <h3>GUNDUBOGULA VAMSI</h3>
+        </div>
         </div>
     )
    

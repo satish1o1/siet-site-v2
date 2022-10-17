@@ -1,8 +1,8 @@
-import './look-up.styles.css'
 import { useState } from 'react'
 import Profile from '../profile/profile.component'
 import Marks from '../marks/marks.component'
 import Overview from '../overview/overview.component'
+import './look-up.styles.css'
 const defaultLookField = {
     lookUpUser:'',
     toggle:false
@@ -29,7 +29,7 @@ const LookUp = () => {
         )
         }
         {toggle && (<div>
-            <button className='back-button' onClick={() =>{setFields({...LookUpFields,toggle:false})}}>BACK</button>
+            <button className='btn look-back' onClick={() =>{setFields({...LookUpFields,toggle:false})}}>BACK</button>
             <h1 className='lookupuser'>ID  {lookUpUser}</h1>
             <div>
                 <Profile user = {lookUpUser}/>

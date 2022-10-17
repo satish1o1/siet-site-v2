@@ -1,7 +1,7 @@
-import './menu.styles.css'
 import { useContext } from 'react'
 import {Link } from "react-router-dom"
 import {MenuContext} from '../../contexts/menu.context'
+import './menu.styles.css'
 const Menu = () => {
     const {isOpen,SetIsOpen} = useContext(MenuContext)
    return (

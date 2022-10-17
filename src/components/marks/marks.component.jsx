@@ -1,7 +1,7 @@
-import './marks.styles.css'
 import MarksCard from '../marks-card/marks-card.component'
 import { useContext } from 'react'
 import { DataContext } from '../../contexts/data.context'
+import './marks.styles.css'
 const Marks = ({user}) => {  
     const {data} = useContext(DataContext)
     const semisters = data[user]['marks']

@@ -1,8 +1,8 @@
 import SignInForm from "../../components/signin/sigin.component"
-import './signin.styles.css'
 import { getMarks } from "../../utils/firebase/firebase.utils"
 import { useContext,useEffect} from "react"
 import { DataContext } from "../../contexts/data.context"
+import './signin.styles.css'
 const SignIn = () => {
     const {setData} = useContext(DataContext)
     useEffect(() => {
