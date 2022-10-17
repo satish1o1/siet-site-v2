@@ -8,6 +8,7 @@ import './update-marks.styles.css'
 
 const defaultSemFields = {
     sem:'sem-1',
+    sem_obj:''
 };
 const  UpdateMarks  = () =>{
     const [semFields,setFields] = useState(defaultSemFields)
@@ -15,16 +16,14 @@ const  UpdateMarks  = () =>{
     const {data,setData} = useContext(DataContext)
     const {CurrentUser} = useContext(UserContext)
 
-
     const selectSem = (sem) =>{
-        console.log(sem)
         setFields({
             sem: sem,
+            sem_obj:data[CurrentUser]['marks'][sem],
           });
     }
        
     const gradeSubmit = (subject,grade) => {
-        console.log(subject,grade)
         let new_obj =  sem_obj
         new_obj[subject] = [grade,new_obj[subject][1]]
         setFields({
@@ -32,25 +31,23 @@ const  UpdateMarks  = () =>{
             sem_obj:new_obj,
         })
         
-        
     }
 
     const onSubmitHandle = async (event) => {
         event.preventDefault();
+        alert('SUCCESSFULLY UPDATED')
         try {
           let new_f_obj = Object.create(data)
           new_f_obj[CurrentUser]['marks'][sem] = sem_obj
           setData(new_f_obj)
           await Update_Marks(CurrentUser,data[CurrentUser])
-          alert('SUCCESSFULLY UPDATED')
       
         } catch (error) {
            console.log(error.code)
         }
-        
      };
         
-     let semister = data[CurrentUser]['marks'][sem]
+     let semister = sem_obj
         return(
             <div className="update-marks">
        <button className="sem-button" onClick={()=>selectSem('sem-1')}>SEM-1</button>
@@ -85,7 +82,7 @@ const  UpdateMarks  = () =>{
             
         }
         
-            <button className="back-button" onClick={onSubmitHandle}>SUBMIT</button>
+            <button className="btn subm" onClick={onSubmitHandle}>SUBMIT</button>
         
        </div>
           </div>

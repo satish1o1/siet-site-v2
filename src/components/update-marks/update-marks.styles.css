@@ -10,9 +10,9 @@
 }
 
 .sem-button{
-    width: 74px;
-    padding: 8px;
-    font-size: 18px;
+    width: 72px;
+    padding: 13px 5px;
+    font-size: 21px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     margin: 2px;
     background: linear-gradient(115deg, 
@@ -50,4 +50,11 @@
   display: block;
   font-size: 34px;
   font-weight: bold;
+ }
+
+ .subm{
+  width: 94%;
+  margin: 14px;
+  padding: 9px 5px;
+  align-items: center;
  }
