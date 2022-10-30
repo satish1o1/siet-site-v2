@@ -1,56 +1,6 @@
 {
-    "SEM-1": {
-      "ENGLISH": {
-        "link": "material_download"
-      },
-      "MATHEMATICS-1": {
-        "link": "material_download"
-      },
-      "APPLIED CHEMISTRY": {
-        "link": "material_download"
-      },
-      "FUNDAMENTALS OF COMPUTER SCIENCE": {
-        "link": "material_download"
-      },
-      "ENGINEERING DRAWING": {
-        "link": "material_download"
-      },
-      "ENGLISH LAB": {
-        "link": "material_download"
-      },
-      "IT WORKSHOP": {
-        "link": "material_download"
-      }
-    },
-    "SEM-2": {
-      "MATHEMATICS-2": {
-        "link": "material_download"
-      },
-      "MATHEMATICS-3": {
-        "link": "material_download"
-      },
-      "APPLIED PHYSICS": {
-        "link": "material_download"
-      },
-      "PROGRAMMING FOR PROBLEM SOLVING USING C": {
-        "link": "material_download"
-      },
-      "DIGITAL LOGIC DESIGN": {
-        "link": "material_download"
-      },
-      "APPLIED PHYSICS LAB": {
-        "link": "material_download"
-      },
-      "COMMUNICATION SKIIL LAB": {
-        "link": "material_download"
-      },
-      "PROGRAMMING FOR PROBLEM SOLVING USING C LAB": {
-        "link": "material_download"
-      },
-      "ENGINEERING EXPLORAION PROJECT": {
-        "link": "material_download"
-      }
-    },
+   
+
     "SEM-3": {
       "MATHEMATICAL FOUNDATIONS OF COMPUTER SCIENCE": {
         "link": "https://drive.google.com/drive/folders/1k5gieQKjMgf4H5UM5naibBHFcu7gMGB5?usp=sharing"

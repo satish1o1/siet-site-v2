@@ -10,7 +10,10 @@ import {
     setDoc,
     collection,
     query,
-    getDocs
+    getDocs,
+    addDoc,
+    updateDoc,
+    arrayUnion
     
 } from 'firebase/firestore'
 const firebaseConfig = {
@@ -51,6 +54,7 @@ export const addUserDoc = async () => {
     const collectionRef = collection(db, 'usersData');
     const q = query(collectionRef);
     const querySnapShot = await getDocs(q)
+
     const Category = querySnapShot.docs.reduce((acc, snapShot) => {
         const id = snapShot.data()['details']['id']
         acc[id] = snapShot.data()
@@ -67,5 +71,17 @@ export const addUserDoc = async () => {
     if(UserSnap.exists()){
         await setDoc(UserRef,Original_obj)
     }
+    UserActivities(CurrentUser,'UPDATED-MARKS')
   }  
+
+
+  export const UserActivities = async(userE,Action)=>{
+    const ActRef = doc(db,'actions','YbJ4XIWJl0v54yunijG1')
+    const createdAt = new Date()
+    await updateDoc(ActRef, {
+      ACTIONS: arrayUnion(userE+'<< '+Action+' >>'+ createdAt)
+  });
+  
+
+  }
   

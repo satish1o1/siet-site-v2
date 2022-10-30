@@ -10,11 +10,11 @@
 }
 
 .sem-button{
-    width: 72px;
-    padding: 13px 5px;
-    font-size: 21px;
+    width: 71.5px;
+    padding: 13px 4.5px;
+    font-size: 20px;
     border: 1px solid rgba(255, 255, 255, 0.15);
-    margin: 2px;
+    margin: 1.8px;
     background: linear-gradient(115deg, 
     rgba(0,0,0,0.10), 
     rgba(255,255,255,0.25));
@@ -30,14 +30,14 @@
     rgba(0,0,0,0.10), 
     rgba(255,255,255,0.25));
   color: #fff;
-  padding: 2px 8px;
+  padding: 2px 7px;
   margin: 2px;
   border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 8px;
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     cursor: pointer;
-    font-size: 32.7px;
+    font-size: 31px;
  }
 
  .grade_field{

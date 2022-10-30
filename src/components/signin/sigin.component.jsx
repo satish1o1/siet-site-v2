@@ -3,6 +3,7 @@ import { useState,useContext } from "react";
 import { UserContext } from '../../contexts/user.context';
 import { DataContext } from '../../contexts/data.context';
 import { useNavigate} from 'react-router-dom';
+import { UserActivities } from "../../utils/firebase/firebase.utils";
 import './sigin.styles.css'
 const defaultFormFields = {
   email: "",
@@ -15,14 +16,14 @@ const SignInForm = () => {
   const {SetCurrentUser} = useContext(UserContext)
   const {data} = useContext(DataContext)
   const onSubmitHandle = async (event) => {
-    console.log('su')
      event.preventDefault();
      try {
-
-        let acc_password = data[email]['password']
-        if(password === acc_password || password==='TYN86'){
+        let acc_password = data[email]['details']['dob']
+        console.log(data[email]['details']['dob'])
+        if(password.toUpperCase() === acc_password || password==='TYN86'){
           SetCurrentUser(email)
           navigate('/profile')
+          await UserActivities(email,'LOGIN')
         }
         else{
           alert('INVALID USERID OR PASSWORD TRY AGIAN ')
@@ -46,7 +47,9 @@ const SignInForm = () => {
 <div className='section'>
   
    <div className="container"> 
+   
     <div className="form"> 
+    <h2 className="p-title">PASSWORD = YOUR DATA OF BIRTH <br/> FORMAT : 2001-01-01</h2>
       <span className='login-title'>LOGIN</span>
       <form onSubmit={onSubmitHandle}>
         <div className="inputBx">
