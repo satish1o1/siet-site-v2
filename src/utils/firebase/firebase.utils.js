@@ -17,7 +17,7 @@ import {
     
 } from 'firebase/firestore'
 const firebaseConfig = {
-  apiKey: "AIzaSyDHKYUE8jt7zdQoUhY0U6eGaE7MhYMTfEo",
+  apiKey: "",
   authDomain: "bot-to-esite.firebaseapp.com",
   projectId: "bot-to-esite",
   storageBucket: "bot-to-esite.appspot.com",
